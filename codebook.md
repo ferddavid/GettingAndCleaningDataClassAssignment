@@ -27,8 +27,22 @@ fBodyGyroJerkMag
 For each of these, we narrowed it down to the following measurements:
 
 
-mean(): Mean value
-std(): Standard deviation
+mean(): the mean of the measurements of the variable
+std(): standard deviation of the measurements of the variable
+
+Also, each measurement was tied to a particular activity:
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
+
 
 A tidy data set was calculated, where for each combination of activity and subject,
 a mean of the calculations was calculated.
